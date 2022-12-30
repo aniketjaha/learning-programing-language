@@ -1,0 +1,459 @@
+
+/* #about1{
+    display: flex;
+    gap:20px;
+    font-size:larger ;
+    margin-top: 15;
+    list-style-type:none;
+    margin-left:auto;
+} */
+body{
+    background-color: red;
+}
+.li,#about{
+    color:lime
+}
+#login:hover,#signup:hover,#about:hover{
+    color: rgb(7, 245, 153);
+    text-decoration: underline;
+
+}
+.li,.about{
+    text-decoration: none;
+    
+}
+#about{
+    font-size: larger;
+    color: rgb(7, 245, 153);
+    margin-top: 20px;
+    margin-right:444px;
+    font-size: larger;
+
+}
+#label{
+   color:yellow;
+   margin-left: 0%;
+   margin-top: 10px;
+}
+#navbar{
+    background-color: rgb(31, 27, 92);
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#boxes,#boxes1,#boxes2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 44px;
+
+}
+
+.one:hover{
+    background-color: gold;
+}
+.one,.two,.three{
+    cursor: pointer;
+    border-radius: 55px;
+    background-color: red;
+    font-size: 30px;
+    width: 333;
+}
+
+/* message box */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.message
+#messageme{
+    color:rgba(103, 255, 1, 0.87);
+    margin-top: 100px;
+   
+
+
+}
+.message{
+    display: flex;
+    justify-content:space-around;
+   
+    background-color:rgb(163, 108, 126);
+}
+.name{
+    margin-top: 20px;
+    border:solid black;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 0px 7px 7px 5px;
+    border-top-style:hidden;
+    border-left-style: hidden;
+    border-bottom-style:solid;
+    border-right-style: hidden;
+}
+#email{
+    margin-top: 6px;
+    
+}
+#phoneno{
+    margin-top: 6px;
+}
+#m1{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+.message 
+{
+    display: flex;
+}
+#messagebox{
+    margin-left:30px ;
+}
+#submit{
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/* HTML.html */
+.htmlpage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* c language */
+.cpage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* c++.html */
+.cpppage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* java.html */
+.javapage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* css.html */
+.csspage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* javascript.html */
+.javascriptpage
+
+text{
+    background-color: red;
+}
+body{
+    background-color: chartreuse;
+}
+#text{
+    margin-top: 10;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    color:yellow
+}
+
+#heading{
+    cursor: pointer;
+}
+nav{
+   font-size: 20px;
+   margin-top: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:yellow;
+}
+a:hover{
+    color:gainsboro;
+}
+#video{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+table{
+    background-color: bisque;
+    border:5px solid;
+    margin:auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+ td{
+    border: 4px solid black; 
+    height: 50px;
+    width: 100;
+
+}
+/* about.html */
+.about
+
+
+
+ #points{
+    font-size: 20px;
+    font-weight: bolder;
+    list-style-type:circle;
+    margin-top: 4;
+ }
+ body{
+    background-color: rgb(13, 241, 211);
+ }
+li{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+#social{
+    margin-top:20%;
+    text-align: center;
+  }
+   .so{
+      height: 50px;
+      margin-left: 20px;
+      border-radius: 50%;
+  }
+

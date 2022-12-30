@@ -1,0 +1,55 @@
+<html>
+    <head>
+
+    </head>
+    <link rel="stylesheet" href="index.css">
+    <body id="body" class="body">
+        <div id="navbar">
+        &nbsp;&nbsp;&nbsp;
+            <a href="about.html" class="about" id="about">About</li></a>
+            <h1 id="label">learn Programing language</h1>
+            <!-- <ul id="allli"> -->
+                <!-- <ul id="about1">
+            <li><a href="#" id="login" class="li">login</li></a>
+            <li><a href="#" id="signup" class="li">sign up</li></a>&nbsp;&nbsp;
+        </ul> -->
+        </div>
+        
+                    <div id="boxes" >
+                        <a href="c.html"><button id="one"class="one">Learn <br>C</button></a>
+                        <a href="c++.html"><button id="two" class="one">Learn<br> C++</button></a>
+                        <a href="java.html"><button id="three"class="one">Learn <br>Java</button></a>
+                    </div>
+                    <div id="boxes1" >
+                        <a href="HTML.html"><button id="one" class="one">Learn<br> HTML</button></a>
+                        <a href="css.html"><button id="two"class="one">Learn<br>CSS</button></a>
+                        <a href="javascript.html"><button id="three"class="one">Learn<br>JavaScript</button></a>
+                    </div>
+                    <br><hr style="border: 3px solid;">
+        <div id="message" class="message">
+            <div id="messageme">
+            <h1>Message Me</h1>
+            </div>
+            <div id="messagebox">
+                <input type="text" placeholder="Enter your Firstname" id="name"class="name" required>
+                <input type="text" placeholder="Enter your lastname" id="name1" class="name" required><br>
+                <input type="email" placeholder="Enter your email id" id="email" class="name" required>
+                <input type="tel" placeholder="Enter your phoneNo" id="phoneNo" class="name" required><br>
+                <textarea type="textarea" placeholder="Enter your message" id="m1" class="name" required></textarea>
+                <input type="submit" onclick="myfunction()"  value="submit"id="submit" class="name">
+                <input type="reset"  value="reset" id="submit" class="name">
+            </div>  
+            <script>
+                function myfunction(){
+                    var a=document.getElementById("name","name1").value='';
+                    if(a==""){
+                        alert("name");
+                        return false;
+                    }
+                    alert("hello "+a+" your massage is send succesfully");
+                   
+                    
+                }
+            </script>
+            </body>
+</html>
